@@ -1,0 +1,7 @@
+<!--pages/template/footer/footer.wxml-->
+<van-tabbar active="{{active}}">
+  <van-tabbar-item icon="bag" bind:click="navTo('../package/package')">我要寄件</van-tabbar-item>
+  <van-tabbar-item icon="location" bind:click="navTo('../package/package')">快递查询</van-tabbar-item>
+  <van-tabbar-item icon="todo-list" bind:click="navTo('../package/package')">寄件记录</van-tabbar-item>
+  <van-tabbar-item icon="setting" bind:click="navTo('../package/package')">我的</van-tabbar-item>
+</van-tabbar>

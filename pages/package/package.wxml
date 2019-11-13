@@ -1,0 +1,6 @@
+<van-tabs active="a">
+  <van-tab title="未签收" name="a">内容 1</van-tab>
+  <van-tab title="已签收" name="b">内容 2</van-tab>
+  <van-tab title="异常件" name="c">内容 3</van-tab>
+</van-tabs>
+<include src="../template/footer/footer.wxml" />
